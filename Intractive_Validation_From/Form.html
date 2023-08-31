@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Form.css">
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+    <h3>Validation Form</h3>
+    <div class="form">
+        <input type="text" id="name" required>
+        <small class="error-message" id="nameError">Please enter your name.</small>
+        <input type="email" id="email" required>
+        <small class="error-message" id="emailError">Please enter a valid email address.</small>
+        <input type="tel" id="number" required>
+        <small class="error-message" id="numberError">Please enter a valid number.</small>
+        <input type="password" id="password" required>
+        <small class="error-message" id="passwordError">Please enter a password.</small><br>
+        <button type="button" id="submitButton">Submit</button>
+    </div>
+</body>
+
+</html>
