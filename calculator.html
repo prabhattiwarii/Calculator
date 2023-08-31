@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen"></div>
+		<button class="button" onclick="clearScreen()">C</button>
+		<button class="button" onclick="deleteDigit()">&larr;</button>
+		<button class="button" onclick="insertOperator('/')">&#247;</button>
+		<button class="button" onclick="insertPercentage('%')">%</button>
+		<button class="button" onclick="insertDigit('7')">7</button>
+		<button class="button" onclick="insertDigit('8')">8</button>
+		<button class="button" onclick="insertDigit('9')">9</button>
+		<button class="button" onclick="insertOperator('*')">&times;</button>
+		<button class="button" onclick="insertDigit('4')">4</button>
+		<button class="button" onclick="insertDigit('5')">5</button>
+		<button class="button" onclick="insertDigit('6')">6</button>
+		<button class="button" onclick="insertOperator('-')">-</button>
+		<button class="button" onclick="insertDigit('1')">1</button>
+		<button class="button" onclick="insertDigit('2')">2</button>
+		<button class="button" onclick="insertDigit('3')">3</button>
+		<button class="button" onclick="insertOperator('+')">+</button>
+		<button class="button" onclick="insertDigit('0')">0</button>
+		<button class="button" onclick="insertDigit('.')">.</button>
+		<button class="button equal" onclick="calculate()">=</button>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
